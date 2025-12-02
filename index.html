@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HLRJ41TJF9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-HLRJ41TJF9');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLRJ41TJF9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-HLRJ41TJF9');
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
-      (function(w,d,s,l,i){
-        w[l]=w[l]||[];
-        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NHWLM38B');
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NHWLM38B');
     </script>
+    <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clothing Brand</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHWLM38B"
+                height="0" width="0"
+                style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
     <header>
         <h1>My Clothing Brand</h1>
@@ -39,13 +50,9 @@
             <a href="about.html">About</a>
             <a href="payment.html">Payment</a>
         </nav>
-
-        <!-- ⭐ Added View Cart button ⭐ -->
-        <div style="margin-top:15px;">
-            <button id="viewCartBtn" class="view-cart-btn">View Cart</button>
-        </div>
     </header>
 
+    <!-- Floating Call Button -->
     <a href="tel:6360590487" class="call-now-btn">📞 Call Now</a>
 
     <section class="hero">
@@ -57,17 +64,39 @@
         <h2>Featured Products</h2>
 
         <div class="product">
-            <img src="assets/images/product1.jpg">
+            <img src="assets/images/product1.jpg" alt="Product 1">
             <h3>Product 1</h3>
             <p>$20</p>
-            <button class="add-to-cart" data-product="Product 1" data-price="20">Add to Cart</button>
+            <a href="https://pari2982003-spec.github.io/demo/">
+                <button class="add-to-cart" data-product="Product 1" data-price="20">Add to Cart</button>
+            </a>
         </div>
 
         <div class="product">
-            <img src="assets/images/product2.jpg">
+            <img src="assets/images/product2.jpg" alt="Product 2">
             <h3>Product 2</h3>
             <p>$25</p>
-            <button class="add-to-cart" data-product="Product 2" data-price="25">Add to Cart</button>
+            <a href="https://pari2982003-spec.github.io/demo/">
+                <button class="add-to-cart" data-product="Product 2" data-price="25">Add to Cart</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="assets/images/product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$20</p>
+            <a href="https://pari2982003-spec.github.io/demo/">
+                <button class="add-to-cart" data-product="Product 1" data-price="20">Add to Cart</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="assets/images/product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$20</p>
+            <a href="https://pari2982003-spec.github.io/demo/">
+                <button class="add-to-cart" data-product="Product 1" data-price="20">Add to Cart</button>
+            </a>
         </div>
 
     </section>
