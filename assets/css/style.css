@@ -80,6 +80,21 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 9999;
 }
+.view-cart-btn, .purchase-btn {
+    background: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.view-cart-btn:hover, .purchase-btn:hover {
+    background: #e65c00;
+}
+
 
 .call-now-btn:hover {
     background: #218838;
